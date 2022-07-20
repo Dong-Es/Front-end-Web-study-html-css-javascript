@@ -1,0 +1,17 @@
+body{
+    background-color: gray;
+}
+input{
+    height: 20px;
+    width: 200px;
+    background-color: white;
+    border: none;
+}
+
+.result{
+    margin: 10px 68px;
+    display: block;
+}
+.resultbtn{
+    display: inline;
+}
