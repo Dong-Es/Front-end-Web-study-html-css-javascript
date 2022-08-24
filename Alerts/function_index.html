@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="alertbox" id="open">어머 변태~  <button id="close" onclick="closebox()">닫아버렷!</button></div>
+    <button onclick="openbox()" >버튼</button>
+    <script>
+        function openbox(){
+            /*긴코드를 짧게 만들기 축약시키기 위해*/
+            /*function 작명(){}이런식으로 이루어져있음*/
+            document.getElementById('open').style.display = 'block';
+        }
+        function closebox(){
+            document.getElementById('open').style.display = 'none';
+        }
+    </script>
+</body>
+</html>
