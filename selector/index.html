@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h2 id="hello">안녕하세요.</h2>
+    <h2 id="hi">반갑습니다.</h2>
+    <h2 id="sizeup">h2 : 더 크게 만들어줘!</h2>
+
+    <script>
+        document.getElementById("hello").innerHTML ='안녕';
+        document.getElementById("hello").style.color='blue';
+        /*문서. 엘리멘트의 id를 가져와서. 바꾸거나 스타일을 주거나 마진을 주거나 하면 된다.*/
+        /*document.getElementById() -> Selector*/
+        document.getElementById("hi").innerHTML='반가워~';
+        document.getElementById("sizeup").style.fontSize='30px'
+    </script>
+</body>
+</html>
