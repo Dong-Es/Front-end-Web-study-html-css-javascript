@@ -1,0 +1,9 @@
+.alert{
+    width: 98%;
+    background-color: palegreen;
+    padding: 50px 20px;
+    text-align: center;
+    font-size: 50px;
+    border-radius: 50px;
+    display: none;
+}
