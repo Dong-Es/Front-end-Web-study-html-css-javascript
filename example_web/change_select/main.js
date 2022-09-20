@@ -1,0 +1,1 @@
+document.getElementById("chk").disabled = true / false
