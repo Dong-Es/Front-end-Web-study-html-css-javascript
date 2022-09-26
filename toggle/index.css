@@ -1,0 +1,52 @@
+.toggle_btn {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+#input_check {
+    position: absolute;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.toggle_btn {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    width: 58px;
+    height: 28px;
+    background: #fff;
+    border: 2px solid #daa;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+.toggle_btn:hover {
+    background: #efefef;
+}
+
+.toggle {
+    position: absolute;
+    top: 4px;
+    left: 3px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background: rgb(174, 247, 249);
+    transition: 0.2s;
+}
+
+#input_check:checked+.toggle_label {
+    background-color: aqua;
+    border: 2px solid aqua;
+}
+
+#input_check:checked+.toggle_label .toggle {
+    left: 34px;
+    background-color: rgb(174, 247, 249);
+    box-shadow: 1px 2px 3px #00000020;
+}
