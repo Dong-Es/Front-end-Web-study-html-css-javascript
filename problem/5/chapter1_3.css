@@ -1,0 +1,11 @@
+body{
+    background-color: black;
+}
+input{
+    display: block;
+    margin: 10px;
+}
+button{
+    display: inline;
+    margin: 10px;
+}
